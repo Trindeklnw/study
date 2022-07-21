@@ -1,0 +1,11 @@
+class queue:
+    def __init__(self):
+     self.stadata = []
+    def enQueue(self,data):
+      self.stdata.append(data)
+    def deQueue(self):
+      return self.stadata.pop(0)
+    def isEmpty(self):
+      return self.data==[]
+    def size(self):
+      return len(self.data)
