@@ -1,0 +1,15 @@
+class dqueue:
+    def __init__(self):
+     self.stadata = []
+    def addFront(self,data):
+      self.stdata.insert(0,data)
+    def addRear(self):
+      return self.stdata.append(data)
+    def removeFront(self):
+      return self.stdata.pop(0)
+    def ermoveRear(self):
+      return self.stdata.pop()
+    def isEmpty(self):
+      return self.data==[]
+    def size(self):
+      return len(self.data)
