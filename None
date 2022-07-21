@@ -1,0 +1,12 @@
+class Node:
+  def __int__(self,item):
+    self.data = item
+    self.next = None
+  def getData(self):
+    return self.data
+  def setData(self,newitem):
+    self.data = newitem
+  def getNext(self):
+    return self.next
+  def setnext(self,newNext):
+    self.next = newNext
