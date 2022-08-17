@@ -1,0 +1,40 @@
+// create by 64020822 นายสิรวิชญ์ คำชุ่ม
+public class Id64020822 {
+    public static void main(String[] args) {
+        BankAccount personone = new BankAccount();
+        personone.setBankAccount("123456789101112");
+        personone.fullname("sirawit", "kamchoom");
+        personone.setamount(5000);
+        personone.interest(0.25);
+        personone.showanything(personone.bankknumber,personone.first,personone.last,personone.amount,personone.branch);
+    }
+}
+class BankAccount{
+    String bankknumber;
+    String first;
+    String last;
+    Double branch;
+    int amount;
+    void setBankAccount(String bankaccount){
+        this.bankknumber = bankaccount;
+    }
+    void setamount(int amountin){
+        this.amount = amountin;
+    }
+    void fullname(String firstname , String lastname){
+        this.first = firstname;
+        this.last = lastname;
+        
+    }
+    Double interest(Double dokkkk){
+        this.branch = amount * dokkkk;
+        return this.branch;
+    }
+    void showanything(String i , String first, String last,int amount,Double trintrinlovedadr9){
+        System.out.println(i);
+        System.out.println(first +" "+ last);
+        System.out.println(amount + " BATH");
+        System.out.println("interest "+branch+ " BATH");
+    }
+
+}
