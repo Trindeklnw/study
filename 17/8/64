@@ -1,11 +1,11 @@
-// create by 64020822 นายสิรวิชญ์ คำชุ่ม
+// create by 64020811 สพลดนัย
 public class Id64020822 {
     public static void main(String[] args) {
         BankAccount personone = new BankAccount();
         personone.setBankAccount("123456789101112");
-        personone.fullname("sirawit", "kamchoom");
-        personone.setamount(5000);
-        personone.interest(0.25);
+        personone.fullname("trin", "kub");
+        personone.setamount(548000);
+        personone.interest(0.15);
         personone.showanything(personone.bankknumber,personone.first,personone.last,personone.amount,personone.branch);
     }
 }
