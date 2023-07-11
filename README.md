@@ -1,0 +1,2 @@
+# study
+trir like bam
